@@ -23,52 +23,46 @@
 
 ## 需要准备
 
-- GitHub 账号
-- GitHub 使用的邮箱
-- 想显示在 Git 里的名字
+- GitHub 账号（还没有的话，先到 [github.com](https://github.com/) 注册）
+
+名字和邮箱会由 AI 在过程中询问，不需要提前填写。
 
 ## 发给 Codex / Claude 的 Code 标签的提示词
 
-把下面的 `名字` 和 `邮箱` 改成你自己的。
+直接复制粘贴即可，不需要修改任何地方。
 
 ```text
-我使用 Mac。请帮我完成 GitHub 代码使用的初始设置。
+我是使用 Mac 的新手。请帮我完成 Git 和 GitHub 的初始设置。
+最终目标是可以通过 SSH 连接 GitHub。
 
-目标:
-- 让 Git 可以使用
-- 设置 Git 的名字和邮箱
-- 为 GitHub 创建 SSH key
-- 显示 SSH public key
-- 告诉我怎样把 public key 粘贴到 GitHub 的 Settings > SSH and GPG keys
-- 用 ssh -T git@github.com 确认连接
+步骤:
+1. 检查 Git 和 GitHub CLI (gh) 是否已安装。没有的话用 Homebrew 安装（没有 Homebrew 就先安装它）
+2. 向我询问 Git 要显示的名字，以及 GitHub 使用的邮箱。如果 git config 里已经有设置，先给我看，确认能不能直接用
+3. 用 git config 设置 user.name 和 user.email
+4. 创建 ed25519 的 SSH key（不设 passphrase 即可）。如果已经有 key，不要覆盖，直接使用
+5. 用 gh auth login 登录 GitHub（GitHub.com、SSH、浏览器登录）。登录时的权限要包含上传 SSH key（admin:public_key）
+6. 用 gh ssh-key add 把 public key 自动添加到我的 GitHub 账号，Title 用 "Mac"
+7. 用 ssh -T git@github.com 和 gh auth status 确认连接成功
 
-Git 使用的名字: 名字
-GitHub 邮箱: 邮箱
-
-如果还没有安装 Git，请用适合 Mac 的方式安装。
-SSH key 请使用 ed25519。
-显示出来的 public key 由我复制到 GitHub。
-如果出现安装画面或密码输入，我来操作。
+规则:
+- 需要我决定或输入的内容，一次只问一个，用简单的话
+- 需要我在浏览器里操作时（输入验证码、点击授权等），告诉我具体怎么做
+- 如果 gh auth login 这类需要交互的命令你无法执行，告诉我怎样在终端里运行
+- 绝对不要显示或发送 private key
+- 如果出现安装画面或密码输入，由我来操作
+- 完成后，简短说明你设置了什么
 ```
 
-## 粘贴到 GitHub 的位置
+## 在浏览器里要做的事
 
-1. 打开 GitHub
-2. 点击右上角头像
-3. 打开 `Settings`
-4. 打开 `SSH and GPG keys`
-5. 点击 `New SSH key`
-6. 在 `Title` 输入容易识别的名字，比如 `Mac`
-7. `Key type` 保持 `Authentication Key`
-8. 在 `Key` 粘贴显示出来的 public key
-9. 点击 `Add SSH key`
+AI 提示之后，在浏览器里这样操作:
 
-## 最后一步
+1. 登录 GitHub
+2. 输入 AI 显示的验证码（8 位）
+3. 在权限确认页面点击 `Authorize github`
 
-把 SSH public key 粘贴到 GitHub 后，发给 Codex 或 Claude 的 `Code` 标签:
+不需要复制粘贴 public key，`gh` 会自动把它添加到 GitHub。
 
-```text
-我已经把 SSH public key 添加到 GitHub。请确认连接。
-```
+显示已经成功连接 GitHub，就完成了。
 
-如果显示已经成功连接 GitHub，就完成了。
+添加好的 key 可以在 GitHub 的 `Settings` > `SSH and GPG keys` 里确认。

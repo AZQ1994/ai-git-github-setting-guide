@@ -10,16 +10,16 @@
     <path d="M225 150h55" stroke="#8290a3" stroke-width="3"/><path d="M280 150l-12-8v16z" fill="#8290a3"/>
     <rect x="297" y="105" width="150" height="90" rx="8" fill="#fff3d6" stroke="#d7a51d" stroke-width="2"/>
     <text x="372" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">Git</text>
-    <text x="372" y="169" text-anchor="middle" font-size="13" fill="#506071">Windows用</text>
+    <text x="372" y="169" text-anchor="middle" font-size="13" fill="#506071">Git と gh</text>
     <path d="M464 150h55" stroke="#8290a3" stroke-width="3"/><path d="M519 150l-12-8v16z" fill="#8290a3"/>
     <rect x="536" y="105" width="150" height="90" rx="8" fill="#eaf7ea" stroke="#6dbb74" stroke-width="2"/>
     <text x="611" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">SSH鍵</text>
-    <text x="611" y="169" text-anchor="middle" font-size="13" fill="#506071">作成</text>
+    <text x="611" y="169" text-anchor="middle" font-size="13" fill="#506071">自動登録</text>
     <path d="M703 150h55" stroke="#8290a3" stroke-width="3"/><path d="M758 150l-12-8v16z" fill="#8290a3"/>
     <rect x="775" y="105" width="150" height="90" rx="8" fill="#f5eafd" stroke="#b783d8" stroke-width="2"/>
     <text x="850" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">GitHub</text>
-    <text x="850" y="169" text-anchor="middle" font-size="13" fill="#506071">貼って確認</text>
+    <text x="850" y="169" text-anchor="middle" font-size="13" fill="#506071">許可して確認</text>
   </g>
-  <text x="500" y="245" text-anchor="middle" font-family="Arial, 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" fill="#506071">PowerShell または Git Bash を使います。</text>
+  <text x="500" y="245" text-anchor="middle" font-family="Arial, 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" fill="#506071">公開鍵のコピペは不要です。秘密鍵は誰にも渡しません。</text>
 </svg>
 

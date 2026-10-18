@@ -10,20 +10,20 @@
     <path d="M174 150h72" stroke="#8290a3" stroke-width="3"/><path d="M246 150l-12-8v16z" fill="#8290a3"/>
     <circle cx="310" cy="150" r="48" fill="#fff3d6" stroke="#d7a51d" stroke-width="2"/>
     <text x="310" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">Git</text>
-    <text x="310" y="169" text-anchor="middle" font-size="13" fill="#506071">确认</text>
+    <text x="310" y="169" text-anchor="middle" font-size="13" fill="#506071">Git 和 gh</text>
     <path d="M364 150h72" stroke="#8290a3" stroke-width="3"/><path d="M436 150l-12-8v16z" fill="#8290a3"/>
     <circle cx="500" cy="150" r="48" fill="#eaf7ea" stroke="#6dbb74" stroke-width="2"/>
     <text x="500" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">SSH key</text>
-    <text x="500" y="169" text-anchor="middle" font-size="13" fill="#506071">创建</text>
+    <text x="500" y="169" text-anchor="middle" font-size="13" fill="#506071">自动添加</text>
     <path d="M554 150h72" stroke="#8290a3" stroke-width="3"/><path d="M626 150l-12-8v16z" fill="#8290a3"/>
     <circle cx="690" cy="150" r="48" fill="#f5eafd" stroke="#b783d8" stroke-width="2"/>
     <text x="690" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">GitHub</text>
-    <text x="690" y="169" text-anchor="middle" font-size="13" fill="#506071">粘贴 key</text>
+    <text x="690" y="169" text-anchor="middle" font-size="13" fill="#506071">浏览器授权</text>
     <path d="M744 150h72" stroke="#8290a3" stroke-width="3"/><path d="M816 150l-12-8v16z" fill="#8290a3"/>
     <circle cx="880" cy="150" r="48" fill="#eef1f5" stroke="#8d99aa" stroke-width="2"/>
     <text x="880" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">确认</text>
     <text x="880" y="169" text-anchor="middle" font-size="13" fill="#506071">连接成功</text>
   </g>
-  <text x="500" y="245" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#506071">只把 public key 粘贴到 GitHub。不要粘贴 private key。</text>
+  <text x="500" y="245" text-anchor="middle" font-family="Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="15" fill="#506071">不需要复制粘贴 public key。private key 不要给任何人。</text>
 </svg>
 
