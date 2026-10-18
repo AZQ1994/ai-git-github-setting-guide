@@ -21,6 +21,12 @@ Claudeを使う場合:
 3. Claudeアカウントでログインする
 4. Claude Desktopアプリの `Code` タブを開く
 
+## 先にGit for Windowsを入れる
+
+1. [Git - Downloads](https://git-scm.com/downloads/win) を開く
+2. Git for Windowsをダウンロードしてインストールする（インストール中の選択はすべて既定のままでOK）
+3. インストール後、Codex または Claude Desktopを開き直す
+
 ## GitHubで用意するもの
 
 - GitHubアカウント
@@ -35,7 +41,7 @@ Claudeを使う場合:
 私はWindowsを使っています。GitHubでコードを扱えるように初期設定してください。
 
 目的:
-- Git for Windowsを使える状態にする
+- Git for Windowsが使える状態か確認する
 - Gitの名前とメールを設定する
 - GitHub用のSSH鍵を作る
 - SSH公開鍵を表示する
@@ -45,7 +51,7 @@ Claudeを使う場合:
 Gitに設定する名前: 名前
 GitHubのメール: メール
 
-Gitが入っていなければ、Windows向けの方法で入れてください。
+Git for Windowsは手動でインストール済みです。そのまま使ってください。再インストールは不要です。
 SSH鍵は ed25519 で作ってください。
 PowerShellまたはGit Bashを使って進めてください。
 表示された公開鍵は、私がGitHubにコピーします。
