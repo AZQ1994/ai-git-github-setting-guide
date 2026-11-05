@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
   <title id="title">Windowsの初期設定フロー</title>
-  <desc id="desc">Windowsでアプリを入れ、Git for Windowsを確認し、SSH鍵を作り、GitHubに登録する流れ。</desc>
+  <desc id="desc">Windowsでアプリを入れ、Git for Windowsを入れ、ブラウザでGitHubを許可し、SSH鍵を自動で登録する流れ。</desc>
   <rect width="1000" height="300" fill="#f8fafc"/>
   <text x="500" y="48" text-anchor="middle" font-family="Arial, 'Yu Gothic', 'Meiryo', sans-serif" font-size="28" font-weight="700" fill="#172033">Windows の流れ</text>
   <g font-family="Arial, 'Yu Gothic', 'Meiryo', sans-serif">
@@ -13,12 +13,12 @@
     <text x="372" y="169" text-anchor="middle" font-size="13" fill="#506071">Git と gh</text>
     <path d="M464 150h55" stroke="#8290a3" stroke-width="3"/><path d="M519 150l-12-8v16z" fill="#8290a3"/>
     <rect x="536" y="105" width="150" height="90" rx="8" fill="#eaf7ea" stroke="#6dbb74" stroke-width="2"/>
-    <text x="611" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">SSH鍵</text>
-    <text x="611" y="169" text-anchor="middle" font-size="13" fill="#506071">自動登録</text>
+    <text x="611" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">GitHub</text>
+    <text x="611" y="169" text-anchor="middle" font-size="13" fill="#506071">ブラウザ許可</text>
     <path d="M703 150h55" stroke="#8290a3" stroke-width="3"/><path d="M758 150l-12-8v16z" fill="#8290a3"/>
     <rect x="775" y="105" width="150" height="90" rx="8" fill="#f5eafd" stroke="#b783d8" stroke-width="2"/>
-    <text x="850" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">GitHub</text>
-    <text x="850" y="169" text-anchor="middle" font-size="13" fill="#506071">許可して確認</text>
+    <text x="850" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">SSH鍵</text>
+    <text x="850" y="169" text-anchor="middle" font-size="13" fill="#506071">登録して確認</text>
   </g>
   <text x="500" y="245" text-anchor="middle" font-family="Arial, 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" fill="#506071">公開鍵のコピペは不要です。秘密鍵は誰にも渡しません。</text>
 </svg>

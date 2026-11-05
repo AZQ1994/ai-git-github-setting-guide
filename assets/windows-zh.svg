@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
   <title id="title">Windows 初始设置流程</title>
-  <desc id="desc">在 Windows 上安装应用，确认 Git for Windows，创建 SSH key，添加到 GitHub。</desc>
+  <desc id="desc">在 Windows 上安装应用，安装 Git for Windows，在浏览器授权 GitHub，自动添加 SSH key。</desc>
   <rect width="1000" height="300" fill="#f8fafc"/>
   <text x="500" y="48" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" font-weight="700" fill="#172033">Windows 流程</text>
   <g font-family="Arial, 'Microsoft YaHei', sans-serif">
@@ -13,12 +13,12 @@
     <text x="372" y="169" text-anchor="middle" font-size="13" fill="#506071">Git 和 gh</text>
     <path d="M464 150h55" stroke="#8290a3" stroke-width="3"/><path d="M519 150l-12-8v16z" fill="#8290a3"/>
     <rect x="536" y="105" width="150" height="90" rx="8" fill="#eaf7ea" stroke="#6dbb74" stroke-width="2"/>
-    <text x="611" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">SSH key</text>
-    <text x="611" y="169" text-anchor="middle" font-size="13" fill="#506071">自动添加</text>
+    <text x="611" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">GitHub</text>
+    <text x="611" y="169" text-anchor="middle" font-size="13" fill="#506071">浏览器授权</text>
     <path d="M703 150h55" stroke="#8290a3" stroke-width="3"/><path d="M758 150l-12-8v16z" fill="#8290a3"/>
     <rect x="775" y="105" width="150" height="90" rx="8" fill="#f5eafd" stroke="#b783d8" stroke-width="2"/>
-    <text x="850" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">GitHub</text>
-    <text x="850" y="169" text-anchor="middle" font-size="13" fill="#506071">授权并确认</text>
+    <text x="850" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">SSH key</text>
+    <text x="850" y="169" text-anchor="middle" font-size="13" fill="#506071">添加并确认</text>
   </g>
   <text x="500" y="245" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15" fill="#506071">不需要复制粘贴 public key。private key 不要给任何人。</text>
 </svg>

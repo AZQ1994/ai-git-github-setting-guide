@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360" role="img" aria-labelledby="title desc">
   <title id="title">Git / GitHub 初期設定の全体の流れ</title>
-  <desc id="desc">アプリを入れる、Gitを入れる、SSH鍵を作る、GitHubに貼る、接続確認をする流れ。</desc>
+  <desc id="desc">アプリを入れる、Gitとghを入れる、ブラウザでGitHubを許可する、SSH鍵を自動で登録する流れ。</desc>
   <rect width="1100" height="360" fill="#f7f9fb"/>
   <text x="550" y="54" text-anchor="middle" font-family="Arial, 'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="30" font-weight="700" fill="#172033">Git / GitHub 初期設定</text>
   <text x="550" y="88" text-anchor="middle" font-family="Arial, 'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="17" fill="#506071">Codex / Claude の Code タブに頼むと、SSH鍵の作成と登録まで自動で進む</text>
@@ -13,19 +13,19 @@
 
     <rect x="335" y="145" width="185" height="98" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
     <text x="427.5" y="185" text-anchor="middle" font-size="19" font-weight="700" fill="#172033">2. Git</text>
-    <text x="427.5" y="215" text-anchor="middle" font-size="15" fill="#506071">AIが質問します</text>
+    <text x="427.5" y="215" text-anchor="middle" font-size="15" fill="#506071">Git と gh</text>
     <path d="M540 194h55" stroke="#6b778c" stroke-width="3" fill="none"/>
     <path d="M595 194l-12-8v16z" fill="#6b778c"/>
 
     <rect x="615" y="145" width="185" height="98" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
-    <text x="707.5" y="185" text-anchor="middle" font-size="19" font-weight="700" fill="#172033">3. SSH鍵</text>
-    <text x="707.5" y="215" text-anchor="middle" font-size="15" fill="#506071">作成して自動登録</text>
+    <text x="707.5" y="185" text-anchor="middle" font-size="19" font-weight="700" fill="#172033">3. GitHub</text>
+    <text x="707.5" y="215" text-anchor="middle" font-size="15" fill="#506071">ブラウザ許可</text>
     <path d="M820 194h55" stroke="#6b778c" stroke-width="3" fill="none"/>
     <path d="M875 194l-12-8v16z" fill="#6b778c"/>
 
     <rect x="895" y="145" width="185" height="98" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
-    <text x="987.5" y="185" text-anchor="middle" font-size="19" font-weight="700" fill="#172033">4. GitHub</text>
-    <text x="987.5" y="215" text-anchor="middle" font-size="15" fill="#506071">ブラウザ許可</text>
+    <text x="987.5" y="185" text-anchor="middle" font-size="19" font-weight="700" fill="#172033">4. SSH鍵</text>
+    <text x="987.5" y="215" text-anchor="middle" font-size="15" fill="#506071">作成して自動登録</text>
   </g>
-  <text x="550" y="306" text-anchor="middle" font-family="Arial, 'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="16" fill="#506071">必要なのはGitHubアカウントだけ。名前とメールはAIが聞きます。公開鍵のコピペは不要です。</text>
+  <text x="550" y="306" text-anchor="middle" font-family="Arial, 'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="16" fill="#506071">必要なのはGitHubアカウントだけ。ブラウザで許可すれば、あとはAIが進めます。</text>
 </svg>

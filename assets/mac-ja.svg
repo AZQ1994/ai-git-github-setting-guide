@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
   <title id="title">Macの初期設定フロー</title>
-  <desc id="desc">Macでアプリを入れ、Gitを確認し、SSH鍵を作り、GitHubに登録する流れ。</desc>
+  <desc id="desc">Macでアプリを入れ、Gitとghを確認し、ブラウザでGitHubを許可し、SSH鍵を自動で登録する流れ。</desc>
   <rect width="1000" height="300" fill="#f8fafc"/>
   <text x="500" y="48" text-anchor="middle" font-family="Arial, 'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="28" font-weight="700" fill="#172033">Mac の流れ</text>
   <g font-family="Arial, 'Hiragino Sans', 'Yu Gothic', sans-serif">
@@ -13,12 +13,12 @@
     <text x="310" y="169" text-anchor="middle" font-size="13" fill="#506071">Git と gh</text>
     <path d="M364 150h72" stroke="#8290a3" stroke-width="3"/><path d="M436 150l-12-8v16z" fill="#8290a3"/>
     <circle cx="500" cy="150" r="48" fill="#eaf7ea" stroke="#6dbb74" stroke-width="2"/>
-    <text x="500" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">SSH鍵</text>
-    <text x="500" y="169" text-anchor="middle" font-size="13" fill="#506071">自動登録</text>
+    <text x="500" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">GitHub</text>
+    <text x="500" y="169" text-anchor="middle" font-size="13" fill="#506071">ブラウザ許可</text>
     <path d="M554 150h72" stroke="#8290a3" stroke-width="3"/><path d="M626 150l-12-8v16z" fill="#8290a3"/>
     <circle cx="690" cy="150" r="48" fill="#f5eafd" stroke="#b783d8" stroke-width="2"/>
-    <text x="690" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">GitHub</text>
-    <text x="690" y="169" text-anchor="middle" font-size="13" fill="#506071">ブラウザ許可</text>
+    <text x="690" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">SSH鍵</text>
+    <text x="690" y="169" text-anchor="middle" font-size="13" fill="#506071">自動登録</text>
     <path d="M744 150h72" stroke="#8290a3" stroke-width="3"/><path d="M816 150l-12-8v16z" fill="#8290a3"/>
     <circle cx="880" cy="150" r="48" fill="#eef1f5" stroke="#8d99aa" stroke-width="2"/>
     <text x="880" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#172033">確認</text>
