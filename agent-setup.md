@@ -16,9 +16,11 @@ Do everything yourself. Reply in the language the user wrote in, using simple wo
 4. If `~/.ssh` already has a key, use it and never overwrite it. Otherwise create an ed25519 key with no passphrase.
 5. Add the public key with `gh ssh-key add`, titled `Mac` or `Windows`. Skip this if the key is already on the account.
 6. Confirm with `ssh -o StrictHostKeyChecking=accept-new -T git@github.com`. Success is the text `successfully authenticated`; this command exits with code 1 even on success.
+7. If `git` or `gh` only worked by full path (common on Windows right after installing, for example `C:\Program Files\GitHub CLI\gh.exe`), record the tool and its path where future sessions will see it: your persistent memory, or your user-level instructions file (`~/.claude/CLAUDE.md` for Claude, `~/.codex/AGENTS.md` for Codex). Append to the file, keeping what is already there. Tell the user what you recorded. Skip this step if both commands work by name.
 
 ## Rules
 
 - Never display or send a private key.
+- Never write keys, tokens or passwords into memory or instructions files.
 - If an installer screen or password prompt appears, tell the user what to do and let them do it.
 - When finished, say in one or two sentences what was set up.
